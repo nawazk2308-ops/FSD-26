@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Delivery App Wireframe</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      .container{
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .box {
+        border: 2px solid black;
+        margin: 10px 0;
+        padding: 15px;
+        text-align: center;
+        font-size: 20px;
+      }
+
+      .row {
+        display: flex;
+        gap: 10px;
+      }
+
+      .menu {
+        width: 25%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+
+      .menu p {
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px 0;
+      }
+
+      .content {
+        width: 75%;
+      }
+
+      .card {
+        flex: 1;
+        border: 2px solid black;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+     <div class="container">
+      <div class="box">
+        <h2 >Food Delivery App</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <!-- Sidebar -->
+        <div class="box menu">
+          <p>Home</p>
+          <p>Restaurants</p>
+          <p>Orders</p>
+        <p>Offers</p>
+        <p>Profile</p>
+      </div>
+
+      <!-- Main Content -->
+      <div class="content">
+        <div class="box">Search Food...</div>
+
+        <div class="row">
+          <div class="card">Pizza</div>
+          <div class="card">Burger</div>
+          <div class="card">Pasta</div>
+        </div>
+
+        <div class="box" style="height: 120px">Popular Restaurants</div>
+
+        <div class="box" style="height: 80px">Order Status</div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="box">Footer</div>
+  </body>
+</html>
