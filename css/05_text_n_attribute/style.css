@@ -1,0 +1,31 @@
+
+*{
+    background-color:cornflowerblue;
+}
+
+
+.text{
+    
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.para{
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.camera{
+    color: red;
+    font-size: 50px;
+}
+
+.headphone{
+    color: blue;
+    font-size: 50px;
+}
